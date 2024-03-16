@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+body{
+    background: linear-gradient(90deg, #2372a3 1%, #063533 85%);
+    font-family: Michroma, serif;
+}
+
+p{
+    color: rgb(155, 239, 211);
+}
+
+.nav-link{
+    color: rgb(169, 211, 217);
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(6, 166, 219);
+}
+
+.navbar-brand img{
+    width: 45px;
+}
+
+.navbar-toggler{
+    background-color: rgb(6, 166, 219) ;
+}
+
+.sitebar{
+    color: rgb(155, 239, 211);
+    background: linear-gradient(270deg, #2372a3 1%, #063533 85%);
+
+}
+
+
+.card{
+    background-color: rgb(213, 227, 238);
+    
+}
+
+.slide-text,
+.footer-text{
+    color: rgb(155, 239, 211);
+    margin: auto auto;
+}
+
+footer{
+    background: linear-gradient(270deg, #2372a3 1%, #063533 85%);
+
+}
+ 
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim{
+    animation: myAnim 3s ease 0s 300 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+.anim2{
+    animation: myAnim 3s ease 0s 300 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+.anim3{
+    animation: Anim3 3s ease 0s 300 normal forwards;
+}
+
+@keyframes Anim3 {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateY(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateY(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateY(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateY(-6px) rotate(-1.2deg);
+	}
+}
+
+.anim1{
+    animation: Anim1 3s ease 0s 300 normal forwards;
+}
+
+@keyframes Anim1 {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateY(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateY(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateY(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateY(-6px) rotate(1.2deg);
+	}
+}
+
+@media(max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+}
+
+.footer-text{
+    margin-top: 60px;
+}
+
